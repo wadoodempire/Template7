@@ -1,0 +1,281 @@
+body{
+    margin: 0
+
+}
+.container_main {
+    display: flex;
+    width: 100%;
+  }
+  .container_1 {
+    width: 40%;
+  }
+  .container_2 {
+    width: 60%;
+  }
+  .Jane_Doe_heading {
+    padding-top: 250px;
+  }
+  .navbar {
+    right: 0;
+    font-size: 40px;
+    justify-content: right;
+    text-align: right;
+    position: fixed;
+    background-color: white;
+    padding: 10px;
+  }
+  .navbar:hover {
+    background-color: #c4c4c4;
+  }
+
+
+  .image_girl_fix {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: fixed;
+    width: 40%;
+    object-fit: cover;
+  }
+  .main_button {
+    padding: 20px;
+    font-size: 15px;
+    border: 0;
+  }
+  .portfolio_heading {
+    padding-left: 15px;
+    padding-top: 100px;
+  }
+  .container_2_1 {
+    text-align: center;
+    font-size: 30px;
+  }
+ 
+  .images_1_2_main {
+    display: flex;
+    width: 100%;
+  }
+  .images_1 {
+    padding: 0px 8px;
+    width: 100%;
+  }
+  .images_2 {
+    padding: 0px 8px;
+    width: 100%;
+  }
+.images_flex {
+  background-size: cover;
+  width: 100%;
+}
+.about_main {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container_2_4 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.persentage_1 {
+  width: 100%;
+  height: 30px;
+  background-color: #bcbcbc;
+}
+.text_1 {
+  background-color: #646464;
+  height: 30px;
+  width: 95%;
+  text-align: center;
+  font-size: 23px;
+  color: white;
+}
+.text_2 {
+  background-color: #646464;
+  height: 30px;
+  font-size: 23px;
+  width: 85%;
+  text-align: center;
+  color: white;
+}
+.text_3 {
+  background-color: #646464;
+  height: 30px;
+  font-size: 23px;
+  text-align: center;
+  width: 80%;
+  color: white;
+}
+.text_4_main {
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+  background-color: #646464;
+  padding-left: 30px;
+  margin-top: 50px;
+  padding-right: 30px;
+  color: white;
+  font-size: 14px;
+  height: 120px;
+}
+.skill_button {
+  padding: 20px;
+  width: 20%;
+  margin-top: 20px;
+  background-color: #bcbcbc;
+  border: 0;
+  font-size: 15px;
+}
+.image_pra_main {
+  display: flex;
+  width: 100%;
+  padding-bottom: 40px;
+}
+.image_left_main {
+  position: relative;
+}
+.image_left_1 {
+  border-radius: 50%;
+  width: 45%;
+}
+.image_left_2 {
+  border-radius: 50%;
+  width: 37%;
+}
+.image_left_3 {
+  border-radius: 50%;
+  width: 31%;
+}
+.pra_right {
+  position: absolute;
+  padding-left: 100px;
+  font-size: 15px;
+}
+.repotation_main {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.price_heading {
+  padding-left: 15px;
+}
+.basic_main {
+  border: 1px solid;
+  width: 50%;
+  text-align: center;
+  margin: 15px;
+}
+.basic_pro_main {
+  display: flex;
+}
+
+.basic_heading {
+  font-size: 40px;
+}
+.signup_button {
+  padding: 10px;
+  width: 25%;
+  font-size: 18px;
+  margin-bottom: 12px;
+}ermonth_pra {
+  height: 10vh;
+  font-size: 20px;
+}
+.basic_heading {
+  font-size: 40px;
+}
+.signup_button {
+  padding: 10px;
+  width: 25%;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.contact_heading {
+  padding-left: 15px;
+}
+.icon_main {
+  display: flex;
+  padding-left: 15px;
+  padding-top: 30px;
+}
+.fa-solid.fa-location-dot, .fa-solid.fa-phone, .fa-solid.fa-envelope {
+  font-size: 40px;
+}
+.icon_Pra {
+  margin: 13px 0px 0px 24px;
+  font-size: 20px;
+}
+.map_image {
+  width: 96%;
+  padding-top: 50px;
+  padding-left: 15px;
+}
+.form_pra {
+  padding-left: 15px;
+}
+.input {
+  width: 95%;
+  height: 40px;
+  padding-left: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+.send_button {
+  margin-left: 15px;
+  margin-top: 20px;
+  width: 20%;
+  padding: 15px;
+  border: 0;
+  font-size: 17px;
+}
+
+.footer_main {
+  background-color: #e9e9ed;
+  height: 20vh;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  color: #757474;
+  margin-top: 50px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .container_main {
+    display: grid;
+    width: 100%;
+  }
+  .container_1 {
+    width: 100%;
+  }
+  .image_girl_fix{
+    width: 100%;
+    position: 0;
+    position: unset;
+  }
+  .container_2 {
+    width: 100%;
+  }
+  .images_1_2_main {
+    display: grid;
+    width: 100%;
+  }
+  .skill_button {
+    padding: 10px;
+    font-size: 12px;
+    width: 32%;
+  }
+  .basic_pro_main {
+    display: grid;
+  }
+  .basic_main {
+    width: auto;
+    margin-top: 75px;
+  }
+  .send_button {
+    width: 30%;
+    padding: 10px;
+    font-size: 15px;
+  }
+}
